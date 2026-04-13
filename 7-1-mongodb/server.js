@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 mongoose
-  .connect("mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/TestDB")
+  .connect("mongodb://s202261060_db_user:Sarah4321@ac-zf6pvlu-shard-00-00.2zrmcma.mongodb.net:27017,ac-zf6pvlu-shard-00-01.2zrmcma.mongodb.net:27017,ac-zf6pvlu-shard-00-02.2zrmcma.mongodb.net:27017/TestDB?ssl=true&replicaSet=atlas-cgzilf-shard-0&authSource=admin&appName=Cluster0")
   .then(() => console.log("✅ Connected to MongoDB"))
   .catch((err) => console.log("❌ Connection error:", err));
 
